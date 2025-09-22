@@ -4,8 +4,9 @@
 
 
 #begin_inputs
-a = int(input('Digite um numero'))
-b = int(input('Digite um numero'))
-c = int(input('Digite um numero'))
+a = 3
+b = 15
+c = 13
 #end_inputs
-print('{}' .format(a+b+c)/3)
+resultado = (a+b+c)/3
+print(resultado)

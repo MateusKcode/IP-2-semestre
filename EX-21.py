@@ -17,6 +17,6 @@ z = 4
 
 #os prints vão a partir daqui
 print("{} e {} sao {} e {}" .format(x,y,a,b))
-print("total:{}" .format(x + y))
-print("{}, {}, {} sao numeros inteiros" .format(a, b, c))
+print("Total: {}" .format(x + y))
+print("{} {} {} sao numeros inteiros" .format(a, b, c))
 print("{} + 0 = {}" .format(z, z))

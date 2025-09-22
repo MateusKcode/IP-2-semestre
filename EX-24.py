@@ -6,6 +6,11 @@
 #begin_inputs
 valor_compra = 100
 #end_inputs
-print((valor_compra) - (valor_compra * 9/100))
-print((valor_compra)/5)
-print((valor_compra * 1.17/10))
+
+avista = valor_compra * 0.91
+parcelado5 = valor_compra / 5
+parcelado10 = (valor_compra * 1.17) / 10
+
+print(round(avista, 2))
+print(round(parcelado5, 2))
+print(round(parcelado10, 2))
