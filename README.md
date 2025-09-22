@@ -1,2 +1,2 @@
-# Python-B-sico
+# introdução a programação - Python
 Códigos simples em Python.
