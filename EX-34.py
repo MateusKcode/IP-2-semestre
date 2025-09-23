@@ -8,8 +8,6 @@
 #end_inputs
 for ano in range(2017, 2021):
     for mes in range(1, 13):
-        for dia in range(1, 30):
-            if ano == 2020 and mes == 12 and dia > 30:
-                break
-            print(f"{dia}/{mes}/{ano}")
+        for dia in range(1, 31):
+            print("{}/{}/{}" .format(dia, mes, ano))
 	

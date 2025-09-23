@@ -9,4 +9,7 @@
 # NÃO mexa aqui.
 
 #end_inputs
-
+for i in range(99, 251):
+    print(f"{i} bugs no software, pegue um deles e conserte...")
+    print("Tente Ctrl+F5")
+print("Vamos fazer mais cafe")

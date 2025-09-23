@@ -6,7 +6,7 @@
 #begin_inputs
 
 #end_inputs
-for ano in range(2004, 2096, 4):
+for ano in range(2004, 2097, 4):
     print(ano)
     
 	
