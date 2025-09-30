@@ -4,8 +4,8 @@
 
 
 #begin_inputs
-x = 78
-y = 23  
+x = 3
+y = 8
 #end_inputs
 if (x >= y):
     print(x)

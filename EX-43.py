@@ -4,10 +4,10 @@
 
 
 #begin_inputs
-mes = input("Digite o numero do mes")
+mes = input("Digite o numero do mes: ")
 #end_inputs
-for m in mes(1, 13):
+for m in mes():
    if m (1, 13):
       print(mes)
-   else:
+   elif m <= 14:
       print("mes invalido")
