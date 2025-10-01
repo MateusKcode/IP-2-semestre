@@ -5,9 +5,8 @@
 
 #begin_inputs
 pesos = [45, 88, 67, 102, 80, 95, 66]
-gen_pesos = (p for p in pesos)
 #end_inputs
-if pesos >= 500:
-    print("peso excedido")
-print(gen_pesos)
-
+while pesos <500:
+    (pesos+50)
+    print(int(pesos))    
+print("peso excedido")
