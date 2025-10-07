@@ -4,9 +4,9 @@
 
 
 #begin_inputs
-contador = 0
  #mantenha esse trecho. o input será manipulado aqui.
 #end_inputs
+contador = 0
 for n in range(10):
     id = int(input())
     if id >= 18:
