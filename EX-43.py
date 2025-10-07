@@ -4,10 +4,11 @@
 
 
 #begin_inputs
-1 = ["janeiro"]
-mes = 1
+mes = int(input())
 #end_inputs
-if mes >= 2:
-    print(1)
-else:
+lista_mes = ["janeiro", "fevreiro", "marco", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
+mes_lista = mes -1
+if 1 < 1 or mes >12:
     print("mes invalido")
+else:
+    print(lista_mes[mes_lista])
