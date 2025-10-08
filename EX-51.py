@@ -4,10 +4,14 @@
 
 
 #begin_inputs
-soma = 0
-while True:
-    peso = int(input())
-    soma += peso
-    if soma > 500:
-        print("peso excedido")
-        break
+ 
+
+#end_inputs
+
+somatorio = 0
+peso = int(input('Digite o peso:'))
+somatorio += peso
+while somatorio <= 500:
+    peso = int(input('Digite o peso:'))
+    somatorio += peso
+print('Peso excedido')
