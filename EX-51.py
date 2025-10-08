@@ -4,9 +4,10 @@
 
 
 #begin_inputs
-pesos = [45, 88, 67, 102, 80, 95, 66]
-#end_inputs
-while pesos <500:
-    (pesos+50)
-    print(int(pesos))    
-print("peso excedido")
+soma = 0
+while True:
+    peso = int(input())
+    soma += peso
+    if soma > 500:
+        print("peso excedido")
+        break
