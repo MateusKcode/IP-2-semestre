@@ -6,27 +6,21 @@
 #begin_inputs
 
 #end_inputs
-def craps():
-    jogadas = input().split(",")
-    jogadas = [int(j.strip()) for j in jogadas]
+valor_dado = int(input('valor sorteado no dado: '))
 
-    primeiro = jogadas[0]
-
-    if primeiro in (7, 11):
-        print("Voce ganhou!")
-        return
-    elif primeiro in (2, 3, 12):
-        print("Voce perdeu!")
-        return
-    else:
-        ponto = primeiro
-        for valor in jogadas[1:]:
-            if valor == ponto:
-                print("Voce ganhou!")
-                return
-            elif valor == 7:
-                print("Voce perdeu!")
-                return
-        print("Jogo inconclusivo (nenhum ponto ou 7 obtido).")
-
-craps()
+if valor_dado == 7 or valor_dado == 11:
+    print('Voce ganhou!')
+elif valor_dado == 2 or valor_dado == 3 or valor_dado == 12:
+    print('Voce perdeu!')
+else:
+    ponto = valor_dado
+    valor_dado = int(input('valor sorteado no dado: '))
+    while True:
+        if valor_dado == ponto:
+            print("Voce ganhou!")
+            break 
+        elif valor_dado == 7:
+            print('Voce perdeu!')
+            break
+        else:
+            valor_dado = int(input('valor sorteado no dado: '))
