@@ -3,18 +3,14 @@
 # @aid V7.1
 
 from string import ascii_lowercase
-
-#begin_inputs
-letras = ['a', 'b', 'c']
-#end_inputs
-
-from string import ascii_lowercase
-
-def letras_disponíveis(letras_usadas):
-    alfabeto = list(ascii_lowercase)
-    
-    disponiveis = [letra for letra in alfabeto if letra not in letras_usadas]
-    return disponiveis
-
-print(letras_disponíveis(letras))
+ 6. #begin_inputs
+ 7. letras = ['a', 'b', 'c']
+ 8. #end_inputs
+ 9. def letras_disponíveis(letras_usadas):
+10.     alfabeto = list(ascii_lowercase)
+11.     
+12.     disponiveis = [letra for letra in alfabeto if letra not in letras_usadas]
+13.     return disponiveis
+14. 
+15. print(letras_disponíveis(letras))
 
